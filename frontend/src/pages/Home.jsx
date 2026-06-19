@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="space-y-16">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary to-blue-600 rounded-3xl overflow-hidden shadow-2xl">
+      <section className="relative bg-linear-to-r from-primary to-blue-600 rounded-3xl overflow-hidden shadow-2xl">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative px-8 py-20 md:px-16 md:py-32 flex flex-col items-start justify-center text-white">
           <span className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm text-sm font-semibold mb-4">

@@ -60,7 +60,7 @@ const AdminDashboard = () => {
   return (
     <div className="flex flex-col md:flex-row gap-8">
       {/* Sidebar */}
-      <div className="w-full md:w-64 flex-shrink-0">
+      <div className="w-full md:w-64 shrink-0">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm border border-gray-100 dark:border-gray-700 p-4 sticky top-24">
           <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6 px-4">Admin Panel</h2>
           <nav className="space-y-2">
@@ -86,7 +86,7 @@ const AdminDashboard = () => {
       </div>
 
       {/* Main Content */}
-      <div className="flex-grow">
+      <div className="grow">
         <Routes>
           <Route path="/" element={
             <div className="space-y-8">

@@ -47,7 +47,7 @@ const Cart = () => {
                   alt={item.productId.name} 
                   className="w-24 h-24 object-cover rounded-lg"
                 />
-                <div className="flex-grow text-center sm:text-left">
+                <div className="grow text-center sm:text-left">
                   <Link to={`/product/${item.productId._id}`} className="font-bold text-lg text-gray-900 dark:text-white hover:text-primary line-clamp-1">
                     {item.productId.name}
                   </Link>
